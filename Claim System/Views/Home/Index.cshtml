@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -16,15 +17,18 @@
 
 
         <div class="PageBottom">
-            <h1>Claim Summary</h1>
+            
             <div class="ClaimSummary">
+                <div class="card">Pending<br><span class="card1">2</span></div>
+                <div class="card">Approved<br><span class="card2">2</span></div>
+                <div class="card">Rejected<br><span class="card3"> 2</span></div>
             </div>
 
             <!-- <h1>Recent Claims</h1>-->
             <div class="IconsArea">
                
                 <div class="SearchBox">
-                    <input type="Text" placeholder="Search..." />
+                    <input type="Text" placeholder="Search..."  />
                     <i class="fas fa-search"></i>
                 </div>
                 <div class="ButtonArea">
@@ -34,7 +38,7 @@
                         <option>Rejection</option>
                         <option>Approved</option>
                     </select>
-                    <button class="bntClaimSubmit">File Claim</button>
+                    <button class="btnClaimSubmit">File Claim</button>
                     <button class="btnUploadDoc">Upload Documents</button>
 
                 </div>
