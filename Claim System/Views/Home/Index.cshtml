@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="Box">
+
+        <div class="PageTop">
+            <h2>Claims</h2>
+
+        </div>
+
+
+        <div class="PageBottom">
+            <h1>Claim Summary</h1>
+            <div class="ClaimSummary">
+            </div>
+
+            <!-- <h1>Recent Claims</h1>-->
+            <div class="IconsArea">
+               
+                <div class="SearchBox">
+                    <input type="Text" placeholder="Search..." />
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="ButtonArea">
+                    <select class="ListSelection">
+                        <option>All</option>
+                        <option>Pending</option>
+                        <option>Rejection</option>
+                        <option>Approved</option>
+                    </select>
+                    <button class="bntClaimSubmit">File Claim</button>
+                    <button class="btnUploadDoc">Upload Documents</button>
+
+                </div>
+                
+            </div>
+            <div class="ClaimSection">
+                <table>
+                    <tr>
+                        <th>Claim ID</th>
+                        <th>Date of Claim</th>
+                        <th>Claim Amount</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>001</td>
+                        <td>01-09-2025</td>
+                        <td>R 1500</td>
+                        <td>Approved</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>09-09-2025</td>
+                        <td>R 3100</td>
+                        <td>Approved</td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>16-09-2025</td>
+                        <td>R 2000</td>
+                        <td>Rejected</td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>20-09-2025</td>
+                        <td>R 5500</td>
+                        <td>pending</td>
+                    </tr>
+                    <tr>
+                        <td>005</td>
+                        <td>23-09-2025</td>
+                        <td>R 25000</td>
+                        <td>Approved</td>
+                    </tr>
+                    <tr>
+                        <td>006</td>
+                        <td>12-10-2025</td>
+                        <td>R 5000</td>
+                        <td>pending</td>
+                    </tr>
+                    <tr>
+                        <td>007</td>
+                        <td>16-10-2025</td>
+                        <td>R 45000</td>
+                        <td>Approved</td>
+                    </tr>
+                    <tr>
+                        <td>008</td>
+                        <td>30-11-2025</td>
+                        <td>R 1000</td>
+                        <td>Rejected</td>
+                    </tr>
+                </table>
+                
+            </div>
+
+
+        </div>
+        
+    
+    </div>
+</body>

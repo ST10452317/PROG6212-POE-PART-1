@@ -1,0 +1,34 @@
+C:\Users\RC_Student_lab\source\repos\Claim System\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\RC_Student_lab\source\repos\Claim System\bin\Debug\net8.0\appsettings.json
+C:\Users\RC_Student_lab\source\repos\Claim System\bin\Debug\net8.0\Claim System.staticwebassets.runtime.json
+C:\Users\RC_Student_lab\source\repos\Claim System\bin\Debug\net8.0\Claim System.staticwebassets.endpoints.json
+C:\Users\RC_Student_lab\source\repos\Claim System\bin\Debug\net8.0\Claim System.exe
+C:\Users\RC_Student_lab\source\repos\Claim System\bin\Debug\net8.0\Claim System.deps.json
+C:\Users\RC_Student_lab\source\repos\Claim System\bin\Debug\net8.0\Claim System.runtimeconfig.json
+C:\Users\RC_Student_lab\source\repos\Claim System\bin\Debug\net8.0\Claim System.dll
+C:\Users\RC_Student_lab\source\repos\Claim System\bin\Debug\net8.0\Claim System.pdb
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\Claim System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\Claim System.AssemblyInfoInputs.cache
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\Claim System.AssemblyInfo.cs
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\Claim System.csproj.CoreCompileInputs.cache
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\Claim System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\Claim System.RazorAssemblyInfo.cache
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\Claim System.RazorAssemblyInfo.cs
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\scopedcss\bundle\Claim System.styles.css
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\scopedcss\projectbundle\Claim System.bundle.scp.css
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\staticwebassets\msbuild.Claim System.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\staticwebassets\msbuild.Claim System.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\staticwebassets\msbuild.build.Claim System.props
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Claim System.props
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Claim System.props
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\Claim System.dll
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\refint\Claim System.dll
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\Claim System.pdb
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\Claim System.genruntimeconfig.cache
+C:\Users\RC_Student_lab\source\repos\Claim System\obj\Debug\net8.0\ref\Claim System.dll
