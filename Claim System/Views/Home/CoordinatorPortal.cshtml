@@ -1,14 +1,44 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
-}
-<head>
-    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
+    ViewData["Title"] = "Coordinator Portal";
+    Layout = null;
 
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/Coordinator.css" asp-append-version="true" />
+</head>
 <body>
-    <div class="Box">
+
+    <header>
+        <nav class="sideNav">
+            <div class="profileArea">
+
+                <div class="profilePhotoArea">
+                    <img class="profilePhoto" src="~/Images/Profile Picture.png" />
+
+                </div>
+
+
+                <div class="profileInfo">
+                    <p><strong>Emihle Zifo</strong></p>
+                    <p>emihlezifo@gmail.com</p>
+                    <p><stromg>Program Coordinator</stromg></p>
+                </div>
+
+
+            </div>
+            <ul>
+                <li>
+                    <a href="#"> <i class="fa-solid fa-gauge"></i> Dashboard</a>
+                </li>
+                <li><a href="#"> <i class="fa-solid fa-gauge"></i> Claims</a></li>
+                <li><a href="#"> <i class="fa-solid fa-gauge"></i> Sign Out</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <div class="CoordinatorBox">
 
         <div class="PageTop">
             <h2>Claims</h2>
@@ -17,7 +47,7 @@
 
 
         <div class="PageBottom">
-            
+
             <div class="ClaimSummary">
                 <div class="card">Pending<br><span class="card1">2</span></div>
                 <div class="card">Approved<br><span class="card2">2</span></div>
@@ -26,9 +56,9 @@
 
             <!-- <h1>Recent Claims</h1>-->
             <div class="IconsArea">
-               
+
                 <div class="SearchBox">
-                    <input type="Text" placeholder="Search..."  />
+                    <input type="Text" placeholder="Search..." />
                     <i class="fas fa-search"></i>
                 </div>
                 <div class="ButtonArea">
@@ -42,7 +72,7 @@
                     <button class="btnUploadDoc">Upload Documents</button>
 
                 </div>
-                
+
             </div>
             <div class="ClaimSection">
                 <table>
@@ -101,12 +131,12 @@
                         <td>Rejected</td>
                     </tr>
                 </table>
-                
+
             </div>
 
 
         </div>
-        
-    
+
     </div>
+
 </body>

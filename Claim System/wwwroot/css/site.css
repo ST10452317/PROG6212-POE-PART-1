@@ -21,6 +21,8 @@
 .profileArea {
     margin-bottom: 60px;
     display: flex;
+   
+ 
 }
 
 .profilePhoto{
@@ -45,11 +47,12 @@
     list-style-type: none;
     width: 100%;
     padding-left: 25px;
+    margin-top: 105px;
 }
 
 .sideNav ul li {
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .sideNav ul li a {

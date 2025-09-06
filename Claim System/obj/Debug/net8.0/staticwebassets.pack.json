@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Images\\Profile Picture.png"
     },
     {
+      "Id": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\css\\Coordinator.css",
+      "PackagePath": "staticwebassets\\css\\Coordinator.css"
+    },
+    {
       "Id": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\css\\Home.css",
       "PackagePath": "staticwebassets\\css\\Home.css"
     },

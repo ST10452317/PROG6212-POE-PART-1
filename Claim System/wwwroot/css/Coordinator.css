@@ -1,15 +1,84 @@
 ﻿body {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 242, 242);
 }
 
-.Box {
-display: flex;
-flex-direction: column;
-height: 100vh;
-
+.sideNav {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 100vh;
+    background-color: rgb(74, 96, 120);
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    padding-top: 20px;
 }
 
+.profileArea {
+    margin-bottom: 60px;
+    display: flex;
+}
+
+.profilePhoto {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profileInfo {
+    flex: 1;
+    margin-left: 15px;
+}
+
+    .profileInfo p {
+        margin: 0;
+    }
+
+.profilePhotoArea {
+    margin-left: 15px;
+    margin-right: 8px;
+}
+
+.sideNav ul {
+    list-style-type: none;
+    width: 100%;
+    padding-left: 25px;
+}
+
+    .sideNav ul li {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+        .sideNav ul li a {
+            align-items: center;
+            padding-top: 15px;
+            padding-right: 20px;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 18px;
+            width: 100%;
+            transition: background-color 0.4s ease;
+        }
+
+            .sideNav ul li a:hover {
+                background-color: #34495e;
+            }
+
+.container {
+    margin-left: 290px;
+}
+
+
+.CoordinatorBox {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
 .PageTop {
     flex: 1;
     border-bottom: 2px solid lightgrey;
@@ -17,15 +86,14 @@ height: 100vh;
 
 .PageBottom {
     flex: 13;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     margin-top: 30px;
 }
 
 
 .ClaimSummary {
     flex: 1;
-   
     margin-top: 3px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -69,7 +137,7 @@ height: 100vh;
     margin-top: 3px;
 }
 
-table{
+table {
     border-collapse: collapse;
     width: 100%;
 }
@@ -86,12 +154,11 @@ th {
 }
 
 .IconsArea {
-    
     display: flex;
     flex-direction: row;
 }
 
-    
+
 
 .SearchBox {
     margin-top: 40px;
@@ -99,7 +166,6 @@ th {
     width: 100%;
     position: relative;
     flex: 1;
- 
 }
 
     .SearchBox input {
@@ -117,7 +183,6 @@ th {
         transform: translateY(-50%);
         color: #666;
         cursor: pointer;
-      
     }
 
 .ButtonArea {
@@ -125,7 +190,6 @@ th {
     flex-direction: row;
     margin-left: 600px;
     flex: 3;
-   
 }
 
 .ListSelection {

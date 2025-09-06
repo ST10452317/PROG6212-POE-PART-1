@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P7Xhb2Sk1fHcKriJ7Cza0QlLDlxFXSigg/1acmGbAGc=",
+  "Hash": "24VqVZxXdww1/pyEwaqQx6NOhT4mzofMYtUS/QO6kHc=",
   "Source": "Claim System",
   "BasePath": "_content/Claim System",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Claim System.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\css\\Coordinator.css",
+      "SourceId": "Claim System",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\",
+      "BasePath": "_content/Claim System",
+      "RelativePath": "css/Coordinator#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "841nolepmg",
+      "Integrity": "aBEUoLh09eVq82B9TVWyT5SLijfDK5mNDQ7CcQ2WI/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Coordinator.css"
+    },
+    {
       "Identity": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\css\\Home.css",
       "SourceId": "Claim System",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "szkkvcyl6n",
-      "Integrity": "uMnZYIkwK17qGyM4o6FJs8OZ9e8PDWulPgaRIfSQ5+s=",
+      "Fingerprint": "9mnflxqta0",
+      "Integrity": "r6F8BhTzMeTtXhoWKOULg0zDXJnNskZW0WLEr7wo1+8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Home.css"
@@ -94,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jlfyxqerbv",
-      "Integrity": "iXOq+EE21/WPN4CRXXrAeVcDQ/MbGyJL6SxZpYybvko=",
+      "Fingerprint": "mxmn71qaji",
+      "Integrity": "2v4/ZC69MHFrw+X2s3c2MeAdrni5hEj2737CMt6k2pA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1527,6 +1548,133 @@
       ]
     },
     {
+      "Route": "css/Coordinator.841nolepmg.css",
+      "AssetFile": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\css\\Coordinator.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aBEUoLh09eVq82B9TVWyT5SLijfDK5mNDQ7CcQ2WI/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Sep 2025 10:26:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "841nolepmg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Coordinator.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aBEUoLh09eVq82B9TVWyT5SLijfDK5mNDQ7CcQ2WI/s="
+        }
+      ]
+    },
+    {
+      "Route": "css/Coordinator.css",
+      "AssetFile": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\css\\Coordinator.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3741"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aBEUoLh09eVq82B9TVWyT5SLijfDK5mNDQ7CcQ2WI/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Sep 2025 10:26:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aBEUoLh09eVq82B9TVWyT5SLijfDK5mNDQ7CcQ2WI/s="
+        }
+      ]
+    },
+    {
+      "Route": "css/Home.9mnflxqta0.css",
+      "AssetFile": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\css\\Home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r6F8BhTzMeTtXhoWKOULg0zDXJnNskZW0WLEr7wo1+8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Sep 2025 10:39:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9mnflxqta0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r6F8BhTzMeTtXhoWKOULg0zDXJnNskZW0WLEr7wo1+8="
+        }
+      ]
+    },
+    {
       "Route": "css/Home.css",
       "AssetFile": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\css\\Home.css",
       "Selectors": [],
@@ -1537,7 +1685,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2470"
+          "Value": "2472"
         },
         {
           "Name": "Content-Type",
@@ -1545,11 +1693,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uMnZYIkwK17qGyM4o6FJs8OZ9e8PDWulPgaRIfSQ5+s=\""
+          "Value": "\"r6F8BhTzMeTtXhoWKOULg0zDXJnNskZW0WLEr7wo1+8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 06 Sep 2025 09:16:00 GMT"
+          "Value": "Sat, 06 Sep 2025 10:39:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1559,52 +1707,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uMnZYIkwK17qGyM4o6FJs8OZ9e8PDWulPgaRIfSQ5+s="
-        }
-      ]
-    },
-    {
-      "Route": "css/Home.szkkvcyl6n.css",
-      "AssetFile": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\css\\Home.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2470"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uMnZYIkwK17qGyM4o6FJs8OZ9e8PDWulPgaRIfSQ5+s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 06 Sep 2025 09:16:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "szkkvcyl6n"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Home.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-uMnZYIkwK17qGyM4o6FJs8OZ9e8PDWulPgaRIfSQ5+s="
+          "Value": "sha256-r6F8BhTzMeTtXhoWKOULg0zDXJnNskZW0WLEr7wo1+8="
         }
       ]
     },
@@ -1619,7 +1722,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1170"
+          "Value": "1202"
         },
         {
           "Name": "Content-Type",
@@ -1627,11 +1730,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iXOq+EE21/WPN4CRXXrAeVcDQ/MbGyJL6SxZpYybvko=\""
+          "Value": "\"2v4/ZC69MHFrw+X2s3c2MeAdrni5hEj2737CMt6k2pA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 14:11:01 GMT"
+          "Value": "Sat, 06 Sep 2025 10:12:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1641,12 +1744,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iXOq+EE21/WPN4CRXXrAeVcDQ/MbGyJL6SxZpYybvko="
+          "Value": "sha256-2v4/ZC69MHFrw+X2s3c2MeAdrni5hEj2737CMt6k2pA="
         }
       ]
     },
     {
-      "Route": "css/site.jlfyxqerbv.css",
+      "Route": "css/site.mxmn71qaji.css",
       "AssetFile": "C:\\Users\\RC_Student_lab\\OneDrive - ADvTECH Ltd\\Documents\\GitHub\\PROG6212-POE-PART-1\\Claim System\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1656,7 +1759,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1170"
+          "Value": "1202"
         },
         {
           "Name": "Content-Type",
@@ -1664,11 +1767,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iXOq+EE21/WPN4CRXXrAeVcDQ/MbGyJL6SxZpYybvko=\""
+          "Value": "\"2v4/ZC69MHFrw+X2s3c2MeAdrni5hEj2737CMt6k2pA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 04 Sep 2025 14:11:01 GMT"
+          "Value": "Sat, 06 Sep 2025 10:12:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1678,7 +1781,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jlfyxqerbv"
+          "Value": "mxmn71qaji"
         },
         {
           "Name": "label",
@@ -1686,7 +1789,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-iXOq+EE21/WPN4CRXXrAeVcDQ/MbGyJL6SxZpYybvko="
+          "Value": "sha256-2v4/ZC69MHFrw+X2s3c2MeAdrni5hEj2737CMt6k2pA="
         }
       ]
     },
