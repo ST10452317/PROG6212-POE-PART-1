@@ -47,11 +47,12 @@
     list-style-type: none;
     width: 100%;
     padding-left: 25px;
+    margin-top: 105px;
 }
 
     .sideNav ul li {
         width: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
     }
 
         .sideNav ul li a {
@@ -78,7 +79,13 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    margin-left: 300px;
 }
+.PageTop {
+    flex: 1;
+    border-bottom: 2px solid lightgrey;
+}
+
 .PageTop {
     flex: 1;
     border-bottom: 2px solid lightgrey;
@@ -92,7 +99,7 @@
 }
 
 
-.ClaimSummary {
+.ClaimAmountSection {
     flex: 1;
     margin-top: 3px;
     display: grid;
@@ -102,32 +109,59 @@
     margin-top: 8px;
 }
 
-.card {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
+.header {
+    font-size: 22px;
     font-weight: bold;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
 }
 
-    .card span {
-        display: block;
-        margin-top: 10px;
-        font-size: 20px;
+/* Progress bar section */
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0.1);
+    padding: 20px 8px 20px 8px;
+    border-radius: 8px;
+}
+
+.progress-box {
+    flex: 1;
+    margin: 0 10px;
+}
+
+    .progress-box h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
     }
 
-.card1 {
-    color: rgb(220, 193, 44);
+.progress {
+    background: #e9ecef;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 18px;
 }
 
-.card2 {
-    color: green;
+.progress-bar {
+    height: 18px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
 }
 
-.card3 {
-    color: red;
+.approved {
+    background: #28a745;
 }
+
+.rejected {
+    background: #dc3545;
+}
+
+.pending {
+    background: rgb(194, 171, 45);
+}
+
 
 
 
@@ -153,70 +187,22 @@ th {
     color: white;
 }
 
-.IconsArea {
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-.SearchBox {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    width: 100%;
-    position: relative;
-    flex: 1;
-}
-
-    .SearchBox input {
-        width: 100%;
-        padding: 10px 10px 10px 15px; /* add space for icon */
-        border: 2px solid #ccc;
-        font-size: 16px;
-        outline: none;
-    }
-
-    .SearchBox i {
-        position: absolute;
-        right: 12px; /* place inside */
-        top: 50%;
-        transform: translateY(-50%);
-        color: #666;
-        cursor: pointer;
-    }
-
-.ButtonArea {
-    display: flex;
-    flex-direction: row;
-    margin-left: 600px;
-    flex: 3;
-}
-
-.ListSelection {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    margin-right: 12px;
-    height: 50px;
-    width: 150px;
-}
-
-.btnClaimSubmit {
-    margin-top: 40px;
-    margin-bottom: 20px;
-    padding: 8px 15px 8px 15px;
-    margin-right: 12px;
-    height: 50px;
-    width: 150px;
+.actions button {
+    padding: 6px 14px;
     border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
 }
 
-.btnUploadDoc {
-    margin-top: 40px;
-    margin-bottom: 8px;
-    padding: 8px 15px 5px 15px;
-    margin-right: 12px;
-    height: 50px;
-    width: 200px;
-    border: none;
+.approve-btn {
+    background: #28a745;
+    color: #fff;
 }
-    
+
+.reject-btn {
+    background: #db5360;
+    color: #fff;
+}
+
+

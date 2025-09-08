@@ -7,7 +7,6 @@
 display: flex;
 flex-direction: column;
 height: 100vh;
-
 }
 
 .PageTop {
@@ -99,12 +98,11 @@ th {
     width: 100%;
     position: relative;
     flex: 1;
- 
 }
 
     .SearchBox input {
         width: 100%;
-        padding: 10px 10px 10px 15px; /* add space for icon */
+        padding: 10px 10px 10px 15px;
         border: 2px solid #ccc;
         font-size: 16px;
         outline: none;
@@ -112,7 +110,7 @@ th {
 
     .SearchBox i {
         position: absolute;
-        right: 12px; /* place inside */
+        right: 12px; 
         top: 50%;
         transform: translateY(-50%);
         color: #666;
@@ -123,9 +121,9 @@ th {
 .ButtonArea {
     display: flex;
     flex-direction: row;
-    margin-left: 600px;
+    /*margin-left: 600px;*/
     flex: 3;
-   
+    justify-content:flex-end;
 }
 
 .ListSelection {

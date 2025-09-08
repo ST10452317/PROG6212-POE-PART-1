@@ -6,6 +6,8 @@
 
 <head>
     <link rel="stylesheet" href="~/css/Coordinator.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
@@ -31,112 +33,129 @@
                 <li>
                     <a href="#"> <i class="fa-solid fa-gauge"></i> Dashboard</a>
                 </li>
-                <li><a href="#"> <i class="fa-solid fa-gauge"></i> Claims</a></li>
-                <li><a href="#"> <i class="fa-solid fa-gauge"></i> Sign Out</a></li>
+                <li><a href="#"><i class="fa-solid fa-eye"></i> View Claims</a></li>
+                <li><a href="#"> <i class="fa-solid fa-circle-check"></i> Approve Claims</a></li>
+                <li><a href="#"> <i class="fa-solid fa-right-from-bracket"></i> Sign Out</a></li>
             </ul>
-
         </nav>
     </header>
 
     <div class="CoordinatorBox">
 
         <div class="PageTop">
-            <h2>Claims</h2>
+            <h2>Coordinator Dashboard</h2>
 
         </div>
-
 
         <div class="PageBottom">
 
-            <div class="ClaimSummary">
-                <div class="card">Pending<br><span class="card1">2</span></div>
-                <div class="card">Approved<br><span class="card2">2</span></div>
-                <div class="card">Rejected<br><span class="card3"> 2</span></div>
+        
+            <div class="header">
+                Claims Overview
             </div>
 
-            <!-- <h1>Recent Claims</h1>-->
-            <div class="IconsArea">
-
-                <div class="SearchBox">
-                    <input type="Text" placeholder="Search..." />
-                    <i class="fas fa-search"></i>
-                </div>
-                <div class="ButtonArea">
-                    <select class="ListSelection">
-                        <option>All</option>
-                        <option>Pending</option>
-                        <option>Rejection</option>
-                        <option>Approved</option>
-                    </select>
-                    <button class="btnClaimSubmit">File Claim</button>
-                    <button class="btnUploadDoc">Upload Documents</button>
-
+            <div class="progress-container">
+                <div class="progress-box">
+                    <h3>Approved: R12,000</h3>
+                    <div class="progress">
+                        <div class="progress-bar approved" style="width: 70%;">70%</div>
+                    </div>
                 </div>
 
+                <div class="progress-box">
+                    <h3>Pending: R6,500</h3>
+                    <div class="progress">
+                        <div class="progress-bar pending" style="width: 20%;">20%</div>
+                    </div>
+                </div>
+
+                <div class="progress-box">
+                    <h3>Rejected: R4,000</h3>
+                    <div class="progress">
+                        <div class="progress-bar rejected" style="width: 10%;">10%</div>
+                    </div>
+                </div>
+
+               
             </div>
+
+            <div class="header">
+                Claims 
+            </div>
+
             <div class="ClaimSection">
+
                 <table>
                     <tr>
-                        <th>Claim ID</th>
+                        <th>Lecturer</th>
                         <th>Date of Claim</th>
                         <th>Claim Amount</th>
-                        <th>Status</th>
+                        <th>Claim Details</th>
+                        <th>Actions</th>
                     </tr>
+
                     <tr>
-                        <td>001</td>
-                        <td>01-09-2025</td>
-                        <td>R 1500</td>
-                        <td>Approved</td>
+                        <td>Emihle Zifo</td>
+                        <td>April 2, 2024</td>
+                        <td>R120.00</td>
+                        <td><a href="#">View Claim Details</a></td>
+                        <td class="actions">
+                            <button class="approve-btn">Approve</button>
+                            <button class="reject-btn">Reject</button>
+                        </td>
                     </tr>
+
                     <tr>
-                        <td>002</td>
-                        <td>09-09-2025</td>
-                        <td>R 3100</td>
-                        <td>Approved</td>
+                        <td>Emihle Zifo</td>
+                        <td>April 2, 2024</td>
+                        <td>R120.00</td>
+                        <td><a href="#">View Claim Details</a></td>
+                        <td class="actions">
+                            <button class="approve-btn">Approve</button>
+                            <button class="reject-btn">Reject</button>
+                        </td>
                     </tr>
+
                     <tr>
-                        <td>003</td>
-                        <td>16-09-2025</td>
-                        <td>R 2000</td>
-                        <td>Rejected</td>
+                        <td>Emihle Zifo</td>
+                        <td>April 2, 2024</td>
+                        <td>R120.00</td>
+                        <td><a href="#">View Claim Details</a></td>
+                        <td class="actions">
+                            <button class="approve-btn">Approve</button>
+                            <button class="reject-btn">Reject</button>
+                        </td>
                     </tr>
+
                     <tr>
-                        <td>004</td>
-                        <td>20-09-2025</td>
-                        <td>R 5500</td>
-                        <td>Pending</td>
+                        <td>Emihle Zifo</td>
+                        <td>April 2, 2024</td>
+                        <td>R120.00</td>
+                        <td><a href="#">View Claim Details</a></td>
+                        <td class="actions">
+                            <button class="approve-btn">Approve</button>
+                            <button class="reject-btn">Reject</button>
+                        </td>
                     </tr>
+
                     <tr>
-                        <td>005</td>
-                        <td>23-09-2025</td>
-                        <td>R 25000</td>
-                        <td>Approved</td>
+                        <td>Emihle Zifo</td>
+                        <td>April 2, 2024</td>
+                        <td>R120.00</td>
+                        <td><a href="#">View Claim Details</a></td>
+                        <td class="actions">
+                            <button class="approve-btn">Approve</button>
+                            <button class="reject-btn">Reject</button>
+                        </td>
                     </tr>
-                    <tr>
-                        <td>006</td>
-                        <td>12-10-2025</td>
-                        <td>R 5000</td>
-                        <td>Pending</td>
-                    </tr>
-                    <tr>
-                        <td>007</td>
-                        <td>16-10-2025</td>
-                        <td>R 45000</td>
-                        <td>Approved</td>
-                    </tr>
-                    <tr>
-                        <td>008</td>
-                        <td>30-11-2025</td>
-                        <td>R 1000</td>
-                        <td>Rejected</td>
-                    </tr>
+
                 </table>
 
             </div>
-
-
-        </div>
-
-    </div>
+       
+         </div>
+          
+     </div>
+        
 
 </body>
